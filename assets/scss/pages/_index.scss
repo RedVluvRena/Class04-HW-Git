@@ -40,7 +40,7 @@ h1 {
 
 
 .coverBanner {
-	background-image: url(../assets/images/home-header.png);
+	background-image: url(../images/home-header.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: calc(100vh - 60px);
@@ -66,7 +66,7 @@ h1 {
 
 @media (max-width: 992px) {
 	.coverBanner {
-		background-image: url(../assets/images/home-header-sm.png);
+		background-image: url(../images/home-header-sm.png);
 		height: calc(100vh - 192px);
 	}
 }
@@ -171,18 +171,18 @@ li.classic-item h4 {
 
 /* co-branding */
 .co-branding-block {
-	background-image: url(../assets/images/index-bg.png);
+	background-image: url(../images/index-bg.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 .co-branding-item .glass01-img {
-	background-image: url(../assets/images/home-section4-1.png);
+	background-image: url(../images/home-section4-1.png);
 }
 
 .co-branding-item .glass02-img {
-	background-image: url(../assets/images/home-section4-2.png);
+	background-image: url(../images/home-section4-2.png);
 }
 
 .co-branding-item .deco-img {
@@ -225,15 +225,15 @@ li.co-branding-item h4 {
 	}
 
 	.co-branding-item .glass01-img {
-		background-image: url(../assets/images/home-section4-1-sm.png);
+		background-image: url(../images/home-section4-1-sm.png);
 	}
 
 	.co-branding-item .glass02-img {
-		background-image: url(../assets/images/home-section4-2-sm.png);
+		background-image: url(../images/home-section4-2-sm.png);
 	}
 
 	.co-branding-block {
-		background-image: url(../assets/images/index-bg-sm.png);
+		background-image: url(../images/index-bg-sm.png);
 	}
 }
 
