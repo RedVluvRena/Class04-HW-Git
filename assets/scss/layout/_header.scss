@@ -1,0 +1,70 @@
+/* -- header nav -- */
+.header {
+	background-color: #aa0601;
+	color: white;
+	font-size: 20px;
+	padding: 12px 0;
+	width: 100%;
+    .wrapper {
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+a.logo {
+	width: 80px;
+	height: 48px;
+	display: block;
+	background-image: url(../assets/images/logo-white.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-indent: 101%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.nav {
+	align-items: center;
+    li a {
+        color: white;
+        padding: 8px 32px;
+    }
+    li a:hover {
+        color: rgb(236, 203, 156);
+        transition: 0.6s;
+    }
+    
+}
+
+@include mobile-large{
+    .header {
+		padding: 0px;
+        .wrapper {
+            flex-direction: column;
+            align-items: start;
+            padding: 0px;
+        }
+	}
+
+	a.logo {
+		padding: 0px;
+		margin: 10px 15px;
+	}
+
+	.nav {
+		width: 100%;
+		flex-wrap: wrap;
+        li.item {
+            width: calc(50% - 2px);
+            text-align: center;
+        }
+        li.item a {
+            padding: 15px 0;
+            border: 1px solid #ffffff;
+            width: 100%;
+            display: inline-block;
+        }
+	}
+
+}
