@@ -48,3 +48,14 @@ git push -u origin main // 僅限第一次輸入，往後只需要輸入 git pus
 git remote add origin https://github.com/RedVluvRena/Class04-HW-Git.git
 
 3. 初始化完畢後，執行 `npm run deploy` 指令進行自動化部署
+
+
+https://redvluvrena.github.io/Class04-HW-Git/
+
+https://redvluvrena.github.io/Class04-HW-Git/
+
+http://localhost:5173/Class04-HW-Git/pages/index.html
+
+https://redvluvrena.github.io/Class04-HW-Git/stores.html
+
+http://localhost:5173/Class04-HW-Git/pages/stores.html

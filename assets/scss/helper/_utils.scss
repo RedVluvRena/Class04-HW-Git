@@ -1,0 +1,65 @@
+/* -- utility -- */
+.container {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: 0 12px;
+}
+
+
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+// @media (max-width: 576px) {
+// 	.container {
+// 		max-width: 372px;
+// 	}
+// }
+
+.row{
+	display: flex;
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+.pr-0 {
+	padding-right: 0 !important;
+}
+
+.pl-0 {
+	padding-left: 0 !important;
+}
+
+.cnt-padding {
+	padding: 80px 0;
+}
+
+@media (max-width: 576px) {
+	.cnt-padding {
+		padding: 40px 0;
+	}
+}
+
+
+/* -- component -- */
+.btn {
+	padding: 6px 12px;
+	color: white;
+	background: $primary;
+	font-size: 20px;
+}
+
+.sumbitbtn {
+	font-size: 16px;
+	background-color: $primary;
+	color: white;
+	padding: 16px 0px;
+	max-width: 416px;
+	width: 100%;
+	border: none;
+	margin: 0 auto;
+	display: block;
+}

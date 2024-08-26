@@ -1,0 +1,138 @@
+section.stores-block {
+    padding: 96px 12px 80px 12px;
+
+    h1.main-title {
+        border-left: 8px solid #aa0601;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 72px;
+        padding-left: 16px;
+        margin-bottom: 33px;
+    }
+
+    .label-title {
+        font-size: 24px;
+        margin-right: 16px
+    }
+
+}
+
+//搜尋框樣式
+.search-bar {
+    width: 33.333%;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+@include pad {
+    .search-bar {
+        width: 100%;
+    }
+}
+
+.select-place {
+    font-size: 18px;
+    text-align: left;
+    flex-grow: 1;
+    border: #ced4da 1px solid;
+    color: #495057;
+    padding: 6px 12px;
+    appearance: none;
+    background: url(../images/select-arrow-dcab13aa.svg);
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: 95% center;
+
+    &:focus {
+        outline: solid 0.5px #aa07016a;
+        border: none;
+        box-shadow: 0 0 0 4px #aa07012f
+    }
+}
+
+
+//卡片架構開始
+.info-card-list {
+    flex-wrap: wrap;
+    row-gap: 24px;
+
+    .col-4 {
+        // width: 33.333%;
+        width: calc(33.3333333% - 24px);
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    @include pad {
+        .col-md-6 {
+            width: calc(50% - 24px);
+            // width: 50%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+    }
+
+    @include mobile-large {
+        .col-sm-12 {
+            width: 100%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+    }
+}
+
+.info-card {
+    .card-content {
+        border: solid 1px rgba(0, 0, 0, .1254901961);
+    }
+
+    .info-card-content {
+        font-size: 20px;
+    }
+}
+
+
+// 店名
+.info-card-title {
+    padding: 8px 24px;
+    font-size: 24px;
+    border-bottom: solid 1px rgba(0, 0, 0, .1254901961);
+}
+
+
+// 地點電話項目        
+.info-card-item {
+    padding: 20px 24px;
+
+    li {
+        display: flex;
+        margin-bottom: 8px;
+        position: relative;
+
+        a.item {
+            padding-left: 30px;
+            color: black;
+        }
+
+        .material-symbols-outlined {
+            position: absolute;
+            left: 0;
+            top: 4px;
+        }
+
+    }
+
+    li:not(last-child) {
+        margin-bottom: 8px;
+        position: relative;
+    }
+}
+
+.detail-btn {
+    background-color: #0e0c0c;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+}
