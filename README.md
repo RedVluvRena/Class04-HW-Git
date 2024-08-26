@@ -50,12 +50,23 @@ git remote add origin https://github.com/RedVluvRena/Class04-HW-Git.git
 3. 初始化完畢後，執行 `npm run deploy` 指令進行自動化部署
 
 
-https://redvluvrena.github.io/Class04-HW-Git/
-
-https://redvluvrena.github.io/Class04-HW-Git/
-
+首頁
 http://localhost:5173/Class04-HW-Git/pages/index.html
+
+https://redvluvrena.github.io/Class04-HW-Git/
+
+門市據點
+http://localhost:5173/Class04-HW-Git/pages/stores.html
 
 https://redvluvrena.github.io/Class04-HW-Git/stores.html
 
-http://localhost:5173/Class04-HW-Git/pages/stores.html
+商品頁
+http://localhost:5173/Class04-HW-Git/pages/product.html
+
+https://redvluvrena.github.io/Class04-HW-Git/product.html
+
+
+
+git commit -m '修改首頁scss佈局細項 新增門市據點分頁'
+
+git commit -m '新增門商品頁分頁'
